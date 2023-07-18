@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main>
+        <header>
+            <nav class="header-container">
+                <a href="#" class="logo">Awesome Books</a>
+                <ul class="nav-link">
+                    <li> <a href="#" id="listLink">List</a></li>
+                    <li> <a href="#"  id="Add-Page">Add Page</a></li>
+                    <li> <a href="#" id="Contact">Contact</a></li>
+                </ul>
+            </nav>
+                <span class="date-time"></span>
+        </header>
+        <section class="books-container">
+            <div class="books-display">
+                <div class="content">
+                    <article class="books-content">
+                            <h1>Awesome Books</h1>
+                        <div class="book-list">
+                            
+                        </div>
+                    </article>
+                
+                    <div class="form-container">
+                        <h2> Add new Book</h2>
+                        <form class="book-form">
+                            <label for="title"></label>
+                            <input type="text" id="title" placeholder="Title" required />
+                            <label for="author"></label>
+                            <input type="text" id="author" placeholder="Author" required />
+                            <div class="btn-con">
+                                <button type="submit" class="form-btn">Add</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            
+            </div>
+        </section>
+    
+        <section class="contact-container">
+                <h2>Contact Information</h2>
+            <div class="contact-info">
+                <p>
+                    Do you have any questions or you just want to say "Hello"?<br>You can reach out to us!
+                 </p>
+                 <ul class="contact-details">
+                    <li> 
+                        <p>Our e-mail mail@mail.com</p>
+                    </li>
+                    <li>
+                        <p>Our phone number: 0043586534422</p>
+                    </li>
+                    <li>
+                        <p>Our address: Streetname 22, 84503 City, Country</p>
+                    </li>
+                 </ul>
+            </div>
+        </section>
+            <footer class="footer-container">
+                <span class="footer-para">© Copyright 2023 Awesome Books. All rights reserved.</span>
+            </footer> 
+    </main>
+
+    <script type="module" src="index.js"></script>
+</body>
+</html>
