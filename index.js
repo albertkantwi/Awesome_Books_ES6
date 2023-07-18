@@ -1,6 +1,6 @@
 import BookCollection from './modules/bookList.js';
 import Navpage from './modules/navigationPage.js';
-import { DateTime } from './modules/luxon.js';
+import { DateTime } from './node_modules/luxon/build/es6/luxon.js';
 
 const bookCollection = new BookCollection();
 const nav = new Navpage();

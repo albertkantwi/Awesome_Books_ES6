@@ -87,14 +87,14 @@ header {
   height: auto;
 }
 
-.book-details:nth-child(odd) {
-  background: lightgrey;
-}
-
 .book-details {
   display: flex;
   justify-content: space-between;
   padding: 8px 16px;
+}
+
+.book-details:nth-child(2n+1) {
+  background: lightgrey;
 }
 
 .form-container {
